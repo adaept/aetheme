@@ -1,3 +1,30 @@
 page-contact {
+  .icon {
+  	fill: currentColor;
+	  width: 1.5em;
+	  height: 1.5em;
+  }
+
+  .myspace {
+    margin: 1em;  
+  }
+
+  .Aligner {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+  }
+
+  .Aligner-item {
+    max-width: 50%;
+  }
+
+  .Aligner-item--top {
+    align-self: flex-start;
+  }
+
+  .Aligner-item--bottom {
+    align-self: flex-end;
+  }
 
 }
